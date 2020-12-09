@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+Square: <input type="text" id="myText" value="6">
+<button onclick="myFunction()">Try it</button>
+<script> 
+let square=6*6;
+</script> 
+<script>
+function myFunction() {
+  square=document.getElementById("myText").value;
+  square=square*square;
+  alert(square);
+}
+</script>
+<p id="demo"></p>
+<script>
+function iFunction() {
+  let square = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = square;
+}
+</script>
+</html>
